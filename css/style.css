@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fbtn {
+  border: 3px solid black transparent;
+  background-color: aqua;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.fbtn:hover {
+  border: 3px solid black;
+  transform: rotate(30deg);
+}
+
+ul {
+  list-style: none;
+}
